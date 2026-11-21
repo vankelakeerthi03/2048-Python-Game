@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Puzzle Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <header>
+            <h1>2048</h1>
+            <p>Join the numbers and reach 2048!</p>
+
+            <div class="scores">
+                <div class="score-box">
+                    <span>SCORE</span>
+                    <strong id="score">0</strong>
+                </div>
+
+                <div class="score-box">
+                    <span>BEST</span>
+                    <strong id="best">0</strong>
+                </div>
+            </div>
+
+            <button id="restart">New Game</button>
+        </header>
+
+        <section id="board" class="board" aria-label="2048 game board"></section>
+
+        <p class="instructions">
+            Use your keyboard arrow keys or swipe to move the tiles.
+        </p>
+
+        <p id="message">Use arrow keys or swipe to play</p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

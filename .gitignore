@@ -3,6 +3,6 @@ __pycache__/
 *.pyc
 env/
 env311/
-index.html
-script.js
-style.css
+/index.html
+/script.js
+/style.css
